@@ -1,0 +1,20 @@
+body {
+    background-color: #e0e0e0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+ div p {
+    margin: auto;
+    color: #999;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+img:hover {
+    opacity: 0.9;
+}

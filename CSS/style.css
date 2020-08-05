@@ -1,0 +1,52 @@
+body {
+    background-color: #e0e0e0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+#caja {
+    background-color: #d3d3cc;
+    margin: 10px;
+    border: 1px outset #fff;
+    border-radius: 4px;
+}
+
+.header {
+    
+    border-bottom: 1px solid #5a5a5a;
+    padding: 20px 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.inbox {
+    /* background-color: #ffff00; */
+    border-bottom: 1px solid #5a5a5a;
+    padding: 20px 20px;
+}
+
+.button {
+    /* background-color: aquamarine; */
+    padding: 20px;
+}
+
+.button1 {
+    text-decoration: none;
+    background-color: #3ea3ea;
+    padding: 7px 10px;
+    font-weight: 800;
+    /* border: 2px green solid; */
+    border-radius: 5px;
+    color: #fff;
+}
+
+#button2 {
+    border-style: none;
+    text-decoration: none;
+    background-color: #bcbcbc;
+    padding: 10px;
+    font-weight: 800;
+    border-radius: 10ps;
+    color: #fff;
+    
+}

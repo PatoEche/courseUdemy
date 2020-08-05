@@ -1,0 +1,84 @@
+body {
+    background-color: #8b7777;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: red;
+    text-indent: 40px;
+    line-height: 2.0;
+    word-spacing: 12px;
+    /* text-shadow: 1px 2px 1px black; */
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    letter-spacing: 4px;
+    background-color: #345;
+    padding: 15px;
+    margin: 10px;
+}
+
+a:link {
+    /*estado normal sin haber sido visitado*/
+    color: red;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:active {
+    color: pink;
+}
+
+a:hover {
+    color: royalblue;
+    background-color: #945;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 0px;
+    text-decoration-color: seashell;
+    
+}
+
+li {
+    background-color: #ddd;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+}
+
+table {
+    width: 80%;
+    background-color: #fff;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+th {
+    background-color: #4caf50;
+    border: 1px solid #4caf50;
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+}
+
+td {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+}
+
